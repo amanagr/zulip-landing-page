@@ -1,0 +1,14 @@
+@import "variables";
+
+/* Override bootstrap scss here */
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg: $dark-blue;
+$body-color: hsl(0, 0, 100%);
+
+@import "~bootstrap/scss/bootstrap";
+
+@import "custom";
